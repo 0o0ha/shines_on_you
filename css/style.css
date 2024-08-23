@@ -13,7 +13,7 @@ header #top #menu {
 }
 header #top #menu li {
   display: inline-block;
-  font-style: "나눔바른고딕OTF 옛한글", "굴림";
+  font-style: "Nanum Gothic", "굴림";
   font-size: 20px;
   font-weight: bold;
   margin-right: 50px;
@@ -40,17 +40,16 @@ header #top #join li {
 }
 header #top #box {
   float: right;
-  background: url("") no-repeat;
+  background: #F9C646;
+  border-radius: 0.2;
   width: 165px;
   height: 69px;
-  margin-right: 70px;
-  margin-top: 13px;
 }
 header #top #box p {
   font-style: "나눔바른고딕OTF 옛한글", "굴림";
-  font-size: 20px;
+  font-size: 21px;
   font-weight: bold;
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 
@@ -61,10 +60,11 @@ header #top #box p {
 }
 #main_view .container {
   position: absolute;
-  z-index: 999;
   top: 300px;
   left: 140px;
-  background: url("../shines on you/images/satr.png") no-repeat;
+  background: url("../image3/메인구름.png") no-repeat;
+  width: 720px;
+  height: 330px;
 }
 #main_view h1 {
   font-size: 64px;
