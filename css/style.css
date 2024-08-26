@@ -53,6 +53,9 @@ header #top #box p {
   text-align: center;
 }
 
+#main_view article {
+  position: relative;
+}
 #main_view p img {
   width: 100%;
   height: 100%;
